@@ -1,0 +1,85 @@
+.featured-section{
+    background-color: #F9F6F6;
+    padding: 1px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5%;
+}
+
+.card{
+    width: 20%;
+    border: 1px solid #E0D8D7;
+    border-bottom: 3px solid #ED1C24;
+    margin-right: 5px;
+    color: #400E03;
+    font-size: 14px;
+    padding: 1rem;
+}
+
+.card p{
+    line-height: 1.5rem;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
+.buttons button{
+    padding: .7rem 1.5rem;
+    width: 50%;
+    font-weight: 800;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttons .button-1{
+    background-color: #FDE4E5;
+    color: #ED1C24;
+    margin-right: .5rem;
+}
+.buttons .button-2{
+    background-color: #ED1C24;
+    color: #FDE4E5;
+}
+
+.arrow{
+    background-color: #400E03;
+    padding: 1rem;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.featured-section h1{
+    color: #400E03;
+    text-align: center;
+    margin: 3rem 0;
+    font-size: 2rem;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    padding: 3rem 0;
+}
+
+.pagi{
+    height: .5rem;
+    width: .5rem;
+    border-radius: 50%;
+    background-color: #ED1C24;
+}
+
+.pagination .active{
+    height: .7rem;
+    width: .7rem;
+}

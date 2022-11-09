@@ -1,0 +1,32 @@
+.hero{
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, .2)),
+    url("https://raw.githubusercontent.com/yusufyunuskaymaz/voltran_club/master/img/Rectangle%201.png")
+    
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-title{
+    text-align: center;
+}
+
+.hero h1{
+    color: white;
+    font-size: 4rem;
+}
+
+.hero-btn{
+    padding: .7rem 1rem;
+    background-color: white;
+    font-weight: 800;
+    color: #ED1C24;
+    border: none;
+}

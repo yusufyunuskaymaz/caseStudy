@@ -1,0 +1,39 @@
+.video-section{
+    background-color: #434448;
+}
+
+.video{
+    padding: 2rem;
+}
+
+.video-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+
+.video-button{
+    padding: .7rem 3rem;
+    border: none;
+    background-color: white;
+    color: #ED1C24;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.video-head h1{
+    color: white;
+    font-size: 2.5rem;
+}
+
+.video-content{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, .2)),
+    url("https://raw.githubusercontent.com/yusufyunuskaymaz/voltran_club/master/img/Placeholder%20Img.png");
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
