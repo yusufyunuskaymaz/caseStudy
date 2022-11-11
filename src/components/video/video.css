@@ -15,7 +15,7 @@
 
 
 .video-button{
-    padding: .7rem 3rem;
+    padding: .7rem 5.2rem;
     border: none;
     background-color: white;
     color: #ED1C24;
@@ -37,3 +37,15 @@
     background-position: center;
 }
 
+
+
+@media only screen and (max-width: 600px) {
+    .video-section{
+        flex-direction: column;
+        /* background-color: red; */
+    }
+    .video-head{
+        flex-direction: column;
+    }
+
+}

@@ -9,8 +9,9 @@ const Video = () => {
           <h1>Feel the excellent wet braking with Driveways!</h1>
           <button className="video-button">Watch All Videos</button>
         </div>
-        <div className="video-content"></div>
       </div>
+      <div className="video-content"></div>
+
     </section>
   );
 };
